@@ -9,6 +9,10 @@ v0.10.0
 * `controlFlowFlattening` now affects string literal nodes.
 * increased runtime performance with `rc4` `stringArrayEncoding`.
 
+v0.9.3
+---
+* Switched from `escodegen` to `escodegen-wallaby`, fixed https://github.com/javascript-obfuscator/javascript-obfuscator/pull/50
+
 v0.9.2
 ---
 * Removed coverage dir from npm package
